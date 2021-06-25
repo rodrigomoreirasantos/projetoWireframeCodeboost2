@@ -1,0 +1,160 @@
+/*Style Header*/
+
+header{
+    width: 100%;
+    display: flex;
+    height: 11rem;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7E3F9;
+}
+
+header nav{
+    display: flex;
+    
+}
+
+header .menu-mobile{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 5.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.1rem;
+}
+
+
+header nav ul:first-child{
+    margin-left: 0rem;
+}
+
+header nav ul:last-child{
+    margin-right: 0rem;
+}
+
+header nav ul li{
+    margin-left: 2.4rem;
+}
+
+/*Style Section Hero*/
+.s-hero{
+    margin-top: 8.6rem;
+}
+
+.s-hero .container-section{
+    display: flex;
+    align-items: center;
+}
+
+/*Style Section Left Hero*/
+
+.s-hero .container-section .s-hero-left{
+    width: 100%;
+    max-width: 44rem;
+    height: 27.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.s-hero .container-section .s-hero-left .avaliable{
+    width: 11rem;
+    height: 2.8rem;
+    color: var(--primary-color);
+    background-color: var(--primary-color-super-light);
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.9rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-hero .container-section .s-hero-left .btn-group-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+}
+
+.scroll-more{
+    margin-top: 10.1rem;
+}
+
+/*Style Section Ritht Hero*/
+.s-hero .container-section .s-hero-right{
+    width: 100%;
+    width: 78rem;
+    height: 50rem;
+    margin-left: 10.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.s-hero .container .s-hero-right .img-group{
+    
+}
+
+.s-hero .container-section .s-hero-right .img-gray{
+    width: 26rem;
+    height: 25rem;
+    background-color: var(--primary-color-super-light);
+    opacity: 85%;
+    z-index: 3;
+
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-hero .container-section .s-hero-right .img-black{
+    width: 52rem;
+    height: 50rem;
+    background-color: var(--gray-color-1);
+    z-index: 1;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-hero .container-section .s-hero-right .img-purple{
+    width: 36.8rem;
+    height: 35rem;
+    background-color: var(--primary-color-light);
+    opacity: 85%;
+    z-index: 2;
+
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+

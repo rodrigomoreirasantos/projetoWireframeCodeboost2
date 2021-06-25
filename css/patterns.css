@@ -1,0 +1,84 @@
+.logo{
+    width: 12.3rem;
+    height: 3.2rem;
+}
+
+h1,h2,h3{
+    font-family: 'Sora',sans-serif;
+    font-weight: bold;
+    line-height: 110%;
+    color: var(--gray-color-1);
+}
+
+h1{
+    font-size: 6.4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+nav,p{
+    font-family: 'Inter',sans-serif;
+    
+}
+
+nav{
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--gray-color-1);
+}
+
+.menu-item{
+    color: var(--gray-color-1);
+    display: inline-block;
+}
+
+.menu-item-login{
+    color: var(--primary-color-light);
+}
+
+button{
+    width: 20.8rem;
+    height: 5.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+.btn-second{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.img-group{
+    position: relative;
+    width: 78rem;
+    height: 50rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+span{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--primary-color-light);
+}
+
